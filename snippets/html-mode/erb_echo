@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: erb echo
+# key: e
+# binding: C-s =
+# --
+<%= $0 %>

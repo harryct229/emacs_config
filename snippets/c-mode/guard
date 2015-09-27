@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: guard
+# key: guard
+# --
+#ifndef _${1:LIB}_H_
+#define _$1_H_
+
+$0
+
+#endif

@@ -1,0 +1,30 @@
+# -*- mode: snippet -*-
+# name: html
+# key: html
+# --
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>${1:Title}</title>
+
+  <meta name="description" content="Web Programmer, Graphics Designer based in Hanoi">
+  <meta name="author" content="Tung Dao me@tungdao.com">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+
+  <link media="all" rel="stylesheet" href="/css/style.min.css" type="text/css">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" async></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+</head>
+<body>
+  <div class="container">
+  $0
+  </div>
+</body>
+</html>

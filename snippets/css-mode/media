@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: media
+# key: media
+# --
+@media only screen and (min-device-width: ${1:320px}) {
+  $0
+}

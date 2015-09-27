@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: src
+# key: src
+# --
+#+begin_src ${1:lang} ${2::tangle no}
+$0
+#+end_src

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: ftp
+# key: ftp
+# --
+[git-ftp]
+  user = $1
+  password = $2
+  url = $3

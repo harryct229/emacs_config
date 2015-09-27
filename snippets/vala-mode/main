@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: main
+# key: main
+# --
+public static int main(string[] args) {
+       $0
+       return 0;
+}

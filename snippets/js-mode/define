@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: define
+# key: def
+# --
+define([$1], function(${1:$(snippet/find-js-modules text)}) {
+  $0
+})

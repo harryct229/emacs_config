@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: php-echo
+# key: pp
+# --
+<?php echo $0 ?>

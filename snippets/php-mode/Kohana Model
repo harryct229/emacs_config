@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Kohana Model
+# key: km
+# --
+<?php defined('SYSPATH') or die('No direct access allowed.');
+
+/**
+ * @class $1
+ */
+class ${1:Model_Name} extends ${2:ORM} {
+
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: require
+# key: req
+# --
+require([$1], function(${1:$(snippet/find-js-modules text)}) {
+  $0
+})

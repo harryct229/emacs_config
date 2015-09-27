@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: mixin
+# key: mixin
+# --
+function mixin(receiver, supplier) {
+  if (Object.keys) {
+    Object.keys(supplier).forEach(function(value, property) {
+      Object.defineOwnProperty(receiver, Object.getOwnPropertyDescriptor(supplier, property));
+    });
+  } else {
+    for (var property in supplier) {
+      if (supplier.hasOwnProperty(property)) {
+        receiver[property] = supplier[property];
+      }
+    }
+  }
+}

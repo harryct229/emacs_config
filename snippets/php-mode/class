@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: class
+# key: class
+# --
+class ${1:Class_Name}${2: extends ${3:Super_Class}} {
+
+  $0
+}

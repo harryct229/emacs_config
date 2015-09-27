@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: foreach
+# key: each
+# --
+foreach (${2:coll} as $1) {
+        $0
+}

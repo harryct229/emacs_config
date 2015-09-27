@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: join
+# key: join
+# --
+(mapconcat #'${2:identity} ${1:list} ${3:" "})

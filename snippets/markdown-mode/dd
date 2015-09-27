@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: dd
+# key: dd
+# --
+${1:Term}
+:    ${2:Definition}
